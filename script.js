@@ -13,6 +13,8 @@ let todoList = [];
 // console.log(submitEl);
 let outputEl = document.getElementById("output");
 
+//function
+
 //add Event listners
 formEl.addEventListener("submit", function (e) {
     e.preventDefault();
