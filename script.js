@@ -14,6 +14,15 @@ let todoList = [];
 let outputEl = document.getElementById("output");
 
 //function
+function todo(todoList) {
+    let getValue = todoList.forEach((input)=>{
+        console.log(input);
+        console.log(todo);
+    })
+    console.log(getValue);
+    
+}
+
 
 //add Event listners
 formEl.addEventListener("submit", function (e) {
@@ -24,7 +33,7 @@ formEl.addEventListener("submit", function (e) {
     console.log(time);
     todoList = [input, time];
     console.log(todoList);
-
-
+    outputEl.innerText = todoList;
+    todo();
     // console.log(formEl);
 })
